@@ -1,0 +1,87 @@
+<!-- <style>
+
+
+
+    #car{
+        position: absolute;
+        right: 0;    
+        top:0;
+        opacity:1;
+        transition: right 3s linear 0s,
+                    top 4s linear 0s,
+                    opacity 4s linear 0s;
+    }
+    
+    
+    #car:hover{
+        top:400px;
+        right: 700px;
+        opacity:0;
+    }
+    
+    /* CSS anmimation ki 2 types*/
+    
+    /* transitiona animations */
+    /* agar animation m 2 siraf steps hn to transition use krlen */
+    
+    /* key-frame animations */
+    /* agar animation m 2 se zyada steps hn to key-frame use krlen */
+    
+    </style>
+    
+    <img src="car.jpeg" id="car" alt="">
+    
+    
+     -->
+    //2nd wali file
+    
+      
+      <style>
+    
+    .box{
+        width: 100px;
+    
+            height: 100px;
+            border: 1px solid red;
+    }
+    
+    section{
+        display: flex;
+        gap: 4px;
+        
+        /* left/right krne keliye justify-content */
+        justify-content: space-evenly;
+        /* up/down keliye align-item */
+        align-items: center;
+        border: 1px solid;
+        height: 400px;
+    }
+    
+    #circle{
+        width: 40px;
+        height: 40px;
+        background-color: red;
+    }
+    
+    #a1{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .box:nth-child(2){
+    
+    }
+    
+      </style>
+    
+    <section>
+      <div class="box"></div>
+    
+      <div id="a1" class="box">
+            <div id="circle"></div>
+      </div>
+    
+      <div class="box"></div>
+      <div class="box"></div>
+    </section>
